@@ -30,7 +30,7 @@ def main(usuario_prompt: str = None):
     else:
         usuario_bot = UsuarioBot(think_exp=args.think)
 
-    initial_query = "Olá! Como posso lhe ajudar?"
+    initial_query = "Olá cliente Itaú! Como posso lhe ajudar?"
     usuario_bot.run(initial_query, banco_bot)
 
 
