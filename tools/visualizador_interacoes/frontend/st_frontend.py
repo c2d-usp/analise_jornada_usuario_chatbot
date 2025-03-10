@@ -217,8 +217,8 @@ with col2:
                 st.download_button(
                     label="Baixar Excel",
                     data=excel_data,
-                    file_name=f"conversa_{st.session_state.selected_thread}.xlsx",
-                    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                    file_name=f"conversa_{st.session_state.selected_thread}.csv",
+                    mime="text/csv"
                 )
             except Exception as e:
                 st.error(f"Falha ao gerar ou baixar o Excel: {e}")
