@@ -1,10 +1,9 @@
 from abc import ABC, abstractmethod
-
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from typing import Optional
 
 from source.persona.persona import Persona
 from source.prompt_manager.constantes import template_padrao, template_agressivo
-
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 class SystemPromptStrategy(ABC):
     """

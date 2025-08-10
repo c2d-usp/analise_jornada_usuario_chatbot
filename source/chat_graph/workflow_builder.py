@@ -1,10 +1,10 @@
 from __future__ import annotations
-
 from abc import ABC, abstractmethod
+from typing import Any
 
-from langgraph.checkpoint.base import BaseCheckpointSaver
 from langgraph.graph import START, MessagesState, StateGraph
 from langgraph.graph.state import CompiledStateGraph
+from langgraph.checkpoint.base import BaseCheckpointSaver
 
 from source.chat_graph.chat_function import ChatFunction
 
