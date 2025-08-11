@@ -11,7 +11,7 @@ datasources:
       - "Cartão Aurevion X"
       - "Extra Gold"
       - "Instituto Ayrton Senna Platinum"
-      - "X Primatier Mastercard Platinum"
+      - "X Primatier Zcard Platinum"
       - "X Platinum"
       - "X Primatier Black"
       - "Singulité Black Pontos"
@@ -65,10 +65,10 @@ datasources:
     display_name: "Programa de Fidelidade Varejo"
     description: "Dados sobre programas de fidelidade relacionados a redes de varejo"
     folders:
-      - "N Card"
-      - "Passaí Gold"
-      - "Pão de Açúcar Black"
-      - "Pão de Açúcar Platinum"
+      - "Z Card"
+      - "Mercado Gold"
+      - "Pão de Mel Black"
+      - "Pão de Mel Platinum"
     prompt_templates:
       rag_prompt: |
         # Papel e Objetivo
@@ -118,15 +118,15 @@ datasources:
     display_name: "Programas de Fidelidade Aéreos"
     description: "Dados sobre programas de fidelidade de companhias aéreas"
     folders:
-      - "Azul Gold"
-      - "Azul Infinite"
-      - "Azul Internacional"
-      - "Azul Platinum"
-      - "LATAM Pass Black"
-      - "LATAM Pass Gold"
-      - "LATAM Pass Infinite"
-      - "LATAM Pass Internacional"
-      - "LATAM Pass Platinum"
+      - "Verde Gold"
+      - "Verde Infinite"
+      - "Verde Internacional"
+      - "Verde Platinum"
+      - "VoeLatin Pass Black"
+      - "VoeLatin Pass Gold"
+      - "VoeLatin Pass Infinite"
+      - "VoeLatin Pass Internacional"
+      - "VoeLatin Pass Platinum"
     prompt_templates:
       rag_prompt: |
         # Papel e Objetivo
@@ -181,7 +181,7 @@ global_prompts:
     relevante para responder à pergunta:
     - 'cartoes_credito_outros_produtos': para perguntas sobre cartões diversos do X, incluindo cartões premium, cartões de marca (Aurevion, Extra, etc.)
     - 'fidelidade_varejo': para perguntas sobre programas de fidelidade relacionados a supermercados e varejo (N Card, Passaí, Pão de Açúcar)
-    - 'fidelidade_aereos': para perguntas sobre programas de fidelidade e milhagem de companhias aéreas (Azul, LATAM)
+    - 'fidelidade_aereos': para perguntas sobre programas de fidelidade e milhagem de companhias aéreas (Verde, VoeLatin)
     Você *tem* que escolher uma dentre as três fontes de dados anteriores.
 
   # Prompt para avaliação dos documentos recuperados
